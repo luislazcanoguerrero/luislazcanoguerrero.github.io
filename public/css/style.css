@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto/Roboto-Regular.ttf');
+}
+
+body{
+   background: #f2f2f2;
+   font-size: 16px;
+   font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.barra-lateral {
+    background: #262a34;
+    color: #fff;
+    min-width: 300px;
+    min-height: 100vh;
+}
+
+.barra-lateral a {
+    color: #fff;
+}
+
+.barra-lateral .logo {
+    background: #0275db;
+}
+
+/* LOGO PRINCIPAL */
+.barra-lateral .logo h2 {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: 300;
+}
+
+/* MENU  */
+.barra-lateral .menu a {
+    display: block;
+    padding: 20px;
+    font-weight: 500;
+    border-bottom: 1px solid #888888;
+}
+
+.barra-lateral .menu a:hover {
+    background: #35ab6b;
+}
+
+.barra-lateral .menu a svg {
+    margin-right: 10px;
+}
